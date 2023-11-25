@@ -4,24 +4,26 @@ using UnityEngine;
 
 public class GameControl : MonoBehaviour
 {
+    public int CurrentScore;
+    public int HighScore;
+
     private static GameControl instance = null;
-    public AudioClip audioBGM;
+    public AudioClip[] audioBGM;
     private AudioSource audioSource;
-    void Awake()
+    void Start()
     {
         if (null == instance)
         {
             instance = this;
             DontDestroyOnLoad(this.gameObject);
+            audioSource = GetComponent<AudioSource>();
+            audioSource.clip = audioBGM[0];
+            audioSource.Play();
         }
         else
         {
             Destroy(this.gameObject);
         }
-
-        audioSource = GetComponent<AudioSource>();
-        audioSource.clip = audioBGM;
-        audioSource.Play();
     }
 
     public static GameControl Instance
@@ -34,10 +36,5 @@ public class GameControl : MonoBehaviour
             }
             return instance;
         }
-    }
-
-    public void gameExit()
-    {
-        Application.Quit();
     }
 }
