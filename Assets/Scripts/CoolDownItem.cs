@@ -19,7 +19,7 @@ public class CoolDownItem : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            other.GetComponent<RubyMove>().prepareBullet *= 4.0f/5.0f;
+            other.GetComponent<RubyMove>().prepareBullet *= 4.25f/5.0f;
             Destroy(gameObject);
         }
     }

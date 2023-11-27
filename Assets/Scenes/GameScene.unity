@@ -1524,7 +1524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2da72874aa262a542922be6e1be1da50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prepareBullet: 2
+  prepareBullet: 1.6
   RubySpeed: 5
   Bullet: {fileID: 4412368620207778764, guid: c06cfab544317a5429ba223574abf59a, type: 3}
 --- !u!61 &1318198743
@@ -4981,7 +4981,7 @@ MonoBehaviour:
   ItemPrefab:
   - {fileID: 7340496041198251496, guid: 37f070d944860b24ca4764e2ec0253d9, type: 3}
   - {fileID: 6197339157843462182, guid: bc47b70d378c9a04096f6bcd62f21112, type: 3}
-  RespawnTime: 20
+  RespawnTime: 25
   spawnCount: 0
 --- !u!50 &1516839090
 Rigidbody2D:

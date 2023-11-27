@@ -713,10 +713,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d44aab68802bd4d4f9343654ac15ebe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Maxhealth: 2
+  Maxhealth: 3
   healthBar: {fileID: 225896511628436641}
   score: 100
-  health: 2
+  health: 3
 --- !u!95 &4258260252789289442
 Animator:
   serializedVersion: 5

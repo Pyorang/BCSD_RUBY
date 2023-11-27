@@ -900,8 +900,8 @@ MonoBehaviour:
   CurrentScore: 0
   HighScore: 0
   audioBGM:
-  - {fileID: 8300000, guid: 9e522d53b7418f149b30416bfabd0d32, type: 3}
-  - {fileID: 8300000, guid: b76b9a2a6aeacff40861cb4e3586ab9e, type: 3}
+  - {fileID: 8300000, guid: 04059be3029131a4293f2954359b4638, type: 3}
+  - {fileID: 8300000, guid: bc7734bfcee63a04e9a84e82c37757fa, type: 3}
   - {fileID: 8300000, guid: 5eb95ec2911200c438661cd94758c87b, type: 3}
 --- !u!4 &535662655
 Transform:

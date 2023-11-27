@@ -36,10 +36,10 @@ public class EnemySpawner : MonoBehaviour
     {
         Instantiate(ClockManPrefab, rigid.position + new Vector2(11f, Random.Range(-3.5f, 3.5f)), Quaternion.identity);
         m_Spawned = false;
-        if (spawnCount == 3)
+        if (spawnCount == 7)
         {
             spawnCount = 0;
-            RespawnTime *= 9.0f / 10.0f;
+            RespawnTime *= 9.75f / 10.0f;
         }
     }
 

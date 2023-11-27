@@ -36,7 +36,7 @@ public class ItemSpawner : MonoBehaviour
     {
         Instantiate(ItemPrefab[Random.Range(0,2)], rigid.position + new Vector2(11f, Random.Range(-4f, 4f)), Quaternion.identity);
         m_Spawned = false;
-        if (spawnCount == 3)
+        if (spawnCount == 7)
         {
             spawnCount = 0;
             RespawnTime *= 9.0f / 10.0f;
